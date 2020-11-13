@@ -1,11 +1,16 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-    # get '/' do
-    #     erb :user_input
-    # end
+    get '/' do
+        erb :user_input
+    end
 
-    # post '/params' do
+    post '/piglatinize' do
         
-    # end
+    end
+
+    post '/piglatinize' do
+        
+    end
+
 end
